@@ -25,3 +25,50 @@
   margin: 8px;
   padding: 8px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.logo {
+  margin-left: 6%;
+  width: 150px;
+  font-size: 1.5rem;
+  color: #16481a;
+}
+
+.logo p {
+  padding-left: 12px;
+  align-self: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding-top: 20px;
+  gap: 2rem;
+}
+
+.navigation-bar ul li a {
+  color: #16481a;
+  text-decoration: none;
+}
+
+.cart-btn {
+  display: flex;
+  -ms-flex-align: center;
+  padding: 10px 15px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #0d5728;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
