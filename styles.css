@@ -1,8 +1,27 @@
-body
-
-
+#main-item > div {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  background-color: azure;
 }
 
+#main-item > div > div {
+  width: 50%;
+  padding: 12px;
+}
 
+#other-items > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-
+#other-items > ul > li {
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin: 8px;
+  padding: 8px;
+}
